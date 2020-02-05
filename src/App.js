@@ -1,8 +1,7 @@
 import React from 'react';
-import './App.css';
 import { Provider } from 'react-redux';
 
-import { Testae } from './components/testae';
+import { Home } from './pages/Home';
 
 import { createAppStore } from './redux';
 const { store } = createAppStore();
@@ -11,7 +10,7 @@ function App() {
   return (
     <>
       <Provider store={store}>
-        <Testae />
+        <Home />
       </Provider>
     </>
   );

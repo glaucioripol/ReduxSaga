@@ -1,0 +1,12 @@
+@import '../../styles/sass/commonColor';
+body {
+  padding: 2px;
+  margin: 0;
+  background-color: $bacgroundColor;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

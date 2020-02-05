@@ -9,7 +9,7 @@ const Testae = () => {
   useEffect(() => { dispatch(recuperarPersonagensRequest()); }, [])
   return (
     <>
-      {JSON.stringify(data.results)}
+      {JSON.stringify(data.results[0])}
     </>
   )
 }
